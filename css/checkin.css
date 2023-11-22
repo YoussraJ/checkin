@@ -1,0 +1,74 @@
+input {
+            margin-bottom: 10px;
+        }
+
+    .container{
+        width:80%;
+        margin: auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .check{
+        display: block;
+        position: absolute;
+        right: 0;background-color:#2A9D8F ;
+        padding: 10px 15px;
+        outline: none;
+        border-radius: 34px;
+        color: #fff;
+
+
+
+    }
+    .check:hover{
+        cursor: pointer;
+        padding: 12px 17px;
+        background-color: #2A9D8D;
+    }
+    .btn{
+        position: relative;
+        width: 100%;
+    }
+    
+    .img img {
+        height: 40vh;
+        display: block;
+         animation: scale 2s infinite alternate; 
+    }
+      @keyframes scale {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pm{
+        display: block;
+        position: absolute;
+        left: 0;
+        padding: 15px 0;
+        /* top: 150%; */
+        outline: none;
+        border: none;
+        color: #2A9D8F;
+    }
+    .pm:hover {
+        cursor: pointer;
+        background-color: transparent;
+        
+    }
+    #showPresent div{
+        padding: 10px;
+    }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Check</title>
+   <link rel="stylesheet" href="./css/checkin.css"> <!-- Example for a subdirectory named "css" -->
+   <script src="./js/checkin.js"></script> <!-- Example for a subdirectory named "js" -->
+
+</head>
+
+<body>
+<div class='container'>
+<div class="flex">
+    <div>
+     <div class="img"><img src="./mic.png" alt="logo" class="img"/></div>
+    <h2>Attendance Check</h2>
+    <label for="emailInput">Enter your email:</label>
+    <input type="email" id="emailInput" placeholder="Enter your email">
+   <div class="btn"> <button class="check" onclick="checkAttendance()">Check Attendance</button> <button class="pm" onclick="showPresent()">Show present members</button></div>
+       
+    </div>
+</div>
+<div class="flex">
+         <div id="showPresent">
+
+        </div>
+    </div>
+</div>
+<script src="./js/checkin.js"></script>
+</body>
+</html>
